@@ -6,16 +6,50 @@ public class Task3 {
     {
         Scanner scanner = new Scanner(System.in);
 
-        int xSize = ArrayHelper.readSize(scanner, "n");
-        int[] x = ArrayHelper.readArray(scanner, "x", xSize);
-        int ySize = ArrayHelper.readSize(scanner, "k");
-        int[] y = ArrayHelper.readArray(scanner, "y", ySize);
+        int n = ArrayHelper.readSize(scanner, "n");
+        int[] x = ArrayHelper.readArray(scanner, "x", n);
+        int k = ArrayHelper.readSize(scanner, "k");
+        int[] y = ArrayHelper.readArray(scanner, "y", k);
 
         ArrayHelper.printArray("x", x);
         ArrayHelper.printArray("y", y);
 
-        int[] z = createFromEvenAndOdd(x, y);
-        if (z.length == 0)
+        int m = 0;
+        for (int i = 0; i < n; i++)
+        {
+            if (x[i] % 2 == 0)
+            {
+                m++;
+            }
+        }
+        for (int i = 0; i < k; i++)
+        {
+            if (y[i] % 2 != 0)
+            {
+                m++;
+            }
+        }
+
+        int[] z = new int[m];
+        int p = 0;
+        for (int i = 0; i < n; i++)
+        {
+            if (x[i] % 2 == 0)
+            {
+                z[p] = x[i];
+                p++;
+            }
+        }
+        for (int i = 0; i < k; i++)
+        {
+            if (y[i] % 2 != 0)
+            {
+                z[p] = y[i];
+                p++;
+            }
+        }
+
+        if (m == 0)
         {
             System.out.println("Новый массив z пуст");
         }
@@ -24,62 +58,18 @@ public class Task3 {
             ArrayHelper.printArray("z", z);
         }
 
-        sortDescending(y);
-        ArrayHelper.printArray("y", y);
-    }
-
-    public static int[] createFromEvenAndOdd(int[] x, int[] y)
-    {
-        int newSize = 0;
-        for (int i = 0; i < x.length; i++)
+        for (int i = 0; i < k - 1; i++)
         {
-            if (x[i] % 2 == 0)
+            for (int j = 0; j < k - 1 - i; j++)
             {
-                newSize++;
-            }
-        }
-        for (int i = 0; i < y.length; i++)
-        {
-            if (y[i] % 2 != 0)
-            {
-                newSize++;
-            }
-        }
-
-        int[] result = new int[newSize];
-        int index = 0;
-        for (int i = 0; i < x.length; i++)
-        {
-            if (x[i] % 2 == 0)
-            {
-                result[index] = x[i];
-                index++;
-            }
-        }
-        for (int i = 0; i < y.length; i++)
-        {
-            if (y[i] % 2 != 0)
-            {
-                result[index] = y[i];
-                index++;
-            }
-        }
-        return result;
-    }
-
-    public static void sortDescending(int[] array)
-    {
-        for (int i = 0; i < array.length - 1; i++)
-        {
-            for (int j = 0; j < array.length - 1 - i; j++)
-            {
-                if (array[j] < array[j + 1])
+                if (y[j] < y[j + 1])
                 {
-                    int temp = array[j];
-                    array[j] = array[j + 1];
-                    array[j + 1] = temp;
+                    int t = y[j];
+                    y[j] = y[j + 1];
+                    y[j + 1] = t;
                 }
             }
         }
+        ArrayHelper.printArray("y", y);
     }
 }

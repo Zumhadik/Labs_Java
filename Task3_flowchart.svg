@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="2453" viewBox="0 0 800 2453">
+<title>Блок-схема Task3 (вариант 26.3)</title>
+<defs>
+<marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M0,1 L10,5 L0,9 z" fill="#000"/>
+</marker>
+</defs>
+<rect width="100%" height="100%" fill="#fff"/>
+<ellipse cx="280" cy="38" rx="55" ry="18" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="280" y="38" font-family="Times New Roman, Liberation Serif, serif" font-size="15" text-anchor="middle" dy="5">Начало</text>
+<polyline points="280,56 280,80" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<polygon points="220.0,80 360.0,80 340.0,130 200.0,130" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="284" y="99" font-family="Times New Roman, Liberation Serif, serif" font-size="15" text-anchor="middle" dy="5">n</text>
+<text x="216.0" y="120" font-family="Times New Roman, Liberation Serif, serif" font-size="12" text-anchor="start" dy="5">ввод</text>
+<polyline points="280,130 280,154" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<polygon points="280,154 360.0,184.0 280,214 200.0,184.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="280" y="184.0" font-family="Times New Roman, Liberation Serif, serif" font-size="15" text-anchor="middle" dy="5">n &lt; 1</text>
+<text x="370.0" y="174.0" font-family="Times New Roman, Liberation Serif, serif" font-size="14" text-anchor="middle" dy="5">+</text>
+<text x="270" y="223" font-family="Times New Roman, Liberation Serif, serif" font-size="14" text-anchor="middle" dy="5">–</text>
+<polyline points="360,184 440,184" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<polygon points="450.0,159 590.0,159 570.0,209 430.0,209" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="514" y="178" font-family="Times New Roman, Liberation Serif, serif" font-size="15" text-anchor="middle" dy="5">«Ошибка»</text>
+<text x="446.0" y="199" font-family="Times New Roman, Liberation Serif, serif" font-size="12" text-anchor="start" dy="5">вывод</text>
+<polyline points="510,159 510,105 350,105" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<polyline points="280,214 280,238" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<polygon points="223,238 337,238 355,256 337,274 223,274 205,256" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="280" y="256" font-family="Times New Roman, Liberation Serif, serif" font-size="15" text-anchor="middle" dy="5">i = 0, n-1</text>
+<polyline points="280,274 280,294" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<polygon points="220.0,294 360.0,294 340.0,344 200.0,344" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="284" y="313" font-family="Times New Roman, Liberation Serif, serif" font-size="15" text-anchor="middle" dy="5">x<tspan dy="5" font-size="11">i</tspan><tspan dy="-5"></tspan></text>
+<text x="216.0" y="334" font-family="Times New Roman, Liberation Serif, serif" font-size="12" text-anchor="start" dy="5">ввод</text>
+<polyline points="280,344 280,364" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<circle cx="280" cy="378" r="14" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="280" y="378" font-family="Times New Roman, Liberation Serif, serif" font-size="14" text-anchor="middle" dy="5">i</text>
+<polyline points="266,378 165,378 165,256 205,256" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<polyline points="280,392 280,416" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<polygon points="220.0,416 360.0,416 340.0,466 200.0,466" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="284" y="435" font-family="Times New Roman, Liberation Serif, serif" font-size="15" text-anchor="middle" dy="5">k</text>
+<text x="216.0" y="456" font-family="Times New Roman, Liberation Serif, serif" font-size="12" text-anchor="start" dy="5">ввод</text>
+<polyline points="280,466 280,490" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<polygon points="280,490 360.0,520.0 280,550 200.0,520.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="280" y="520.0" font-family="Times New Roman, Liberation Serif, serif" font-size="15" text-anchor="middle" dy="5">k &lt; 1</text>
+<text x="370.0" y="510.0" font-family="Times New Roman, Liberation Serif, serif" font-size="14" text-anchor="middle" dy="5">+</text>
+<text x="270" y="559" font-family="Times New Roman, Liberation Serif, serif" font-size="14" text-anchor="middle" dy="5">–</text>
+<polyline points="360,520 440,520" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<polygon points="450.0,495 590.0,495 570.0,545 430.0,545" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="514" y="514" font-family="Times New Roman, Liberation Serif, serif" font-size="15" text-anchor="middle" dy="5">«Ошибка»</text>
+<text x="446.0" y="535" font-family="Times New Roman, Liberation Serif, serif" font-size="12" text-anchor="start" dy="5">вывод</text>
+<polyline points="510,495 510,441 350,441" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<polyline points="280,550 280,574" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<polygon points="223,574 337,574 355,592 337,610 223,610 205,592" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="280" y="592" font-family="Times New Roman, Liberation Serif, serif" font-size="15" text-anchor="middle" dy="5">i = 0, k-1</text>
+<polyline points="280,610 280,630" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<polygon points="220.0,630 360.0,630 340.0,680 200.0,680" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="284" y="649" font-family="Times New Roman, Liberation Serif, serif" font-size="15" text-anchor="middle" dy="5">y<tspan dy="5" font-size="11">i</tspan><tspan dy="-5"></tspan></text>
+<text x="216.0" y="670" font-family="Times New Roman, Liberation Serif, serif" font-size="12" text-anchor="start" dy="5">ввод</text>
+<polyline points="280,680 280,700" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<circle cx="280" cy="714" r="14" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="280" y="714" font-family="Times New Roman, Liberation Serif, serif" font-size="14" text-anchor="middle" dy="5">i</text>
+<polyline points="266,714 165,714 165,592 205,592" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<polyline points="280,728 280,752" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<polygon points="205.0,752 375.0,752 355.0,802 185.0,802" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="284" y="771" font-family="Times New Roman, Liberation Serif, serif" font-size="15" text-anchor="middle" dy="5">x<tspan dy="5" font-size="11">0</tspan><tspan dy="-5">, x</tspan><tspan dy="5" font-size="11">1</tspan><tspan dy="-5">, …, x</tspan><tspan dy="5" font-size="11">n-1</tspan><tspan dy="-5"></tspan></text>
+<text x="201.0" y="792" font-family="Times New Roman, Liberation Serif, serif" font-size="12" text-anchor="start" dy="5">вывод</text>
+<polyline points="280,802 280,826" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<polygon points="205.0,826 375.0,826 355.0,876 185.0,876" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="284" y="845" font-family="Times New Roman, Liberation Serif, serif" font-size="15" text-anchor="middle" dy="5">y<tspan dy="5" font-size="11">0</tspan><tspan dy="-5">, y</tspan><tspan dy="5" font-size="11">1</tspan><tspan dy="-5">, …, y</tspan><tspan dy="5" font-size="11">k-1</tspan><tspan dy="-5"></tspan></text>
+<text x="201.0" y="866" font-family="Times New Roman, Liberation Serif, serif" font-size="12" text-anchor="start" dy="5">вывод</text>
+<polyline points="280,876 280,900" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<rect x="200.0" y="900" width="160" height="40" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="280" y="920.0" font-family="Times New Roman, Liberation Serif, serif" font-size="15" text-anchor="middle" dy="5">m = 0</text>
+<polyline points="280,940 280,964" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<polygon points="223,964 337,964 355,982 337,1000 223,1000 205,982" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="280" y="982" font-family="Times New Roman, Liberation Serif, serif" font-size="15" text-anchor="middle" dy="5">i = 0, n-1</text>
+<polyline points="280,1000 280,1020" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<polygon points="280,1020 360.0,1050.0 280,1080 200.0,1050.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="280" y="1050.0" font-family="Times New Roman, Liberation Serif, serif" font-size="15" text-anchor="middle" dy="5">x<tspan dy="5" font-size="11">i</tspan><tspan dy="-5"> mod 2 = 0</tspan></text>
+<text x="370.0" y="1040.0" font-family="Times New Roman, Liberation Serif, serif" font-size="14" text-anchor="middle" dy="5">+</text>
+<text x="270" y="1089" font-family="Times New Roman, Liberation Serif, serif" font-size="14" text-anchor="middle" dy="5">–</text>
+<polyline points="360,1050 430.0,1050" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<rect x="430.0" y="1030.0" width="160" height="40" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="510" y="1050.0" font-family="Times New Roman, Liberation Serif, serif" font-size="15" text-anchor="middle" dy="5">m = m + 1</text>
+<polyline points="510,1070.0 510,1090 280,1090" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<polyline points="280,1080 280,1090" fill="none" stroke="#000" stroke-width="1.3"/>
+<polyline points="280,1090 280,1110" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<circle cx="280" cy="1124" r="14" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="280" y="1124" font-family="Times New Roman, Liberation Serif, serif" font-size="14" text-anchor="middle" dy="5">i</text>
+<polyline points="266,1124 165,1124 165,982 205,982" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<polyline points="280,1138 280,1162" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<polygon points="223,1162 337,1162 355,1180 337,1198 223,1198 205,1180" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="280" y="1180" font-family="Times New Roman, Liberation Serif, serif" font-size="15" text-anchor="middle" dy="5">i = 0, k-1</text>
+<polyline points="280,1198 280,1218" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<polygon points="280,1218 360.0,1248.0 280,1278 200.0,1248.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="280" y="1248.0" font-family="Times New Roman, Liberation Serif, serif" font-size="15" text-anchor="middle" dy="5">y<tspan dy="5" font-size="11">i</tspan><tspan dy="-5"> mod 2 ≠ 0</tspan></text>
+<text x="370.0" y="1238.0" font-family="Times New Roman, Liberation Serif, serif" font-size="14" text-anchor="middle" dy="5">+</text>
+<text x="270" y="1287" font-family="Times New Roman, Liberation Serif, serif" font-size="14" text-anchor="middle" dy="5">–</text>
+<polyline points="360,1248 430.0,1248" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<rect x="430.0" y="1228.0" width="160" height="40" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="510" y="1248.0" font-family="Times New Roman, Liberation Serif, serif" font-size="15" text-anchor="middle" dy="5">m = m + 1</text>
+<polyline points="510,1268.0 510,1288 280,1288" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<polyline points="280,1278 280,1288" fill="none" stroke="#000" stroke-width="1.3"/>
+<polyline points="280,1288 280,1308" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<circle cx="280" cy="1322" r="14" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="280" y="1322" font-family="Times New Roman, Liberation Serif, serif" font-size="14" text-anchor="middle" dy="5">i</text>
+<polyline points="266,1322 165,1322 165,1180 205,1180" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<polyline points="280,1336 280,1360" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<rect x="180.0" y="1360" width="200" height="56" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="280" y="1379.0" font-family="Times New Roman, Liberation Serif, serif" font-size="15" text-anchor="middle" dy="5">z — массив из m</text>
+<text x="280" y="1397.0" font-family="Times New Roman, Liberation Serif, serif" font-size="15" text-anchor="middle" dy="5">элементов, p = 0</text>
+<polyline points="280,1416 280,1440" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<polygon points="223,1440 337,1440 355,1458 337,1476 223,1476 205,1458" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="280" y="1458" font-family="Times New Roman, Liberation Serif, serif" font-size="15" text-anchor="middle" dy="5">i = 0, n-1</text>
+<polyline points="280,1476 280,1496" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<polygon points="280,1496 360.0,1526.0 280,1556 200.0,1526.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="280" y="1526.0" font-family="Times New Roman, Liberation Serif, serif" font-size="15" text-anchor="middle" dy="5">x<tspan dy="5" font-size="11">i</tspan><tspan dy="-5"> mod 2 = 0</tspan></text>
+<text x="370.0" y="1516.0" font-family="Times New Roman, Liberation Serif, serif" font-size="14" text-anchor="middle" dy="5">+</text>
+<text x="270" y="1565" font-family="Times New Roman, Liberation Serif, serif" font-size="14" text-anchor="middle" dy="5">–</text>
+<polyline points="360,1526 430.0,1526" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<rect x="430.0" y="1498.0" width="160" height="56" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="510" y="1517.0" font-family="Times New Roman, Liberation Serif, serif" font-size="15" text-anchor="middle" dy="5">z<tspan dy="5" font-size="11">p</tspan><tspan dy="-5"> = x</tspan><tspan dy="5" font-size="11">i</tspan><tspan dy="-5"></tspan></text>
+<text x="510" y="1535.0" font-family="Times New Roman, Liberation Serif, serif" font-size="15" text-anchor="middle" dy="5">p = p + 1</text>
+<polyline points="510,1554.0 510,1566 280,1566" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<polyline points="280,1556 280,1566" fill="none" stroke="#000" stroke-width="1.3"/>
+<polyline points="280,1566 280,1586" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<circle cx="280" cy="1600" r="14" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="280" y="1600" font-family="Times New Roman, Liberation Serif, serif" font-size="14" text-anchor="middle" dy="5">i</text>
+<polyline points="266,1600 165,1600 165,1458 205,1458" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<polyline points="280,1614 280,1638" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<polygon points="223,1638 337,1638 355,1656 337,1674 223,1674 205,1656" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="280" y="1656" font-family="Times New Roman, Liberation Serif, serif" font-size="15" text-anchor="middle" dy="5">i = 0, k-1</text>
+<polyline points="280,1674 280,1694" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<polygon points="280,1694 360.0,1724.0 280,1754 200.0,1724.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="280" y="1724.0" font-family="Times New Roman, Liberation Serif, serif" font-size="15" text-anchor="middle" dy="5">y<tspan dy="5" font-size="11">i</tspan><tspan dy="-5"> mod 2 ≠ 0</tspan></text>
+<text x="370.0" y="1714.0" font-family="Times New Roman, Liberation Serif, serif" font-size="14" text-anchor="middle" dy="5">+</text>
+<text x="270" y="1763" font-family="Times New Roman, Liberation Serif, serif" font-size="14" text-anchor="middle" dy="5">–</text>
+<polyline points="360,1724 430.0,1724" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<rect x="430.0" y="1696.0" width="160" height="56" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="510" y="1715.0" font-family="Times New Roman, Liberation Serif, serif" font-size="15" text-anchor="middle" dy="5">z<tspan dy="5" font-size="11">p</tspan><tspan dy="-5"> = y</tspan><tspan dy="5" font-size="11">i</tspan><tspan dy="-5"></tspan></text>
+<text x="510" y="1733.0" font-family="Times New Roman, Liberation Serif, serif" font-size="15" text-anchor="middle" dy="5">p = p + 1</text>
+<polyline points="510,1752.0 510,1764 280,1764" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<polyline points="280,1754 280,1764" fill="none" stroke="#000" stroke-width="1.3"/>
+<polyline points="280,1764 280,1784" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<circle cx="280" cy="1798" r="14" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="280" y="1798" font-family="Times New Roman, Liberation Serif, serif" font-size="14" text-anchor="middle" dy="5">i</text>
+<polyline points="266,1798 165,1798 165,1656 205,1656" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<polyline points="280,1812 280,1836" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<polygon points="280,1836 360.0,1866.0 280,1896 200.0,1866.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="280" y="1866.0" font-family="Times New Roman, Liberation Serif, serif" font-size="15" text-anchor="middle" dy="5">m = 0</text>
+<text x="370.0" y="1856.0" font-family="Times New Roman, Liberation Serif, serif" font-size="14" text-anchor="middle" dy="5">+</text>
+<text x="270" y="1905" font-family="Times New Roman, Liberation Serif, serif" font-size="14" text-anchor="middle" dy="5">–</text>
+<polyline points="360,1866 410,1866" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<polygon points="420.0,1841 620.0,1841 600.0,1891 400.0,1891" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="514" y="1860" font-family="Times New Roman, Liberation Serif, serif" font-size="15" text-anchor="middle" dy="5">«Новый массив z пуст»</text>
+<text x="416.0" y="1881" font-family="Times New Roman, Liberation Serif, serif" font-size="12" text-anchor="start" dy="5">вывод</text>
+<polyline points="280,1896 280,1920" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<polygon points="205.0,1920 375.0,1920 355.0,1970 185.0,1970" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="284" y="1939" font-family="Times New Roman, Liberation Serif, serif" font-size="15" text-anchor="middle" dy="5">z<tspan dy="5" font-size="11">0</tspan><tspan dy="-5">, z</tspan><tspan dy="5" font-size="11">1</tspan><tspan dy="-5">, …, z</tspan><tspan dy="5" font-size="11">m-1</tspan><tspan dy="-5"></tspan></text>
+<text x="201.0" y="1960" font-family="Times New Roman, Liberation Serif, serif" font-size="12" text-anchor="start" dy="5">вывод</text>
+<polyline points="280,1970 280,1990" fill="none" stroke="#000" stroke-width="1.3"/>
+<polyline points="500,1891 500,1990 280,1990" fill="none" stroke="#000" stroke-width="1.3"/>
+<polyline points="280,1990 280,2014" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<polygon points="223,2014 337,2014 355,2032 337,2050 223,2050 205,2032" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="280" y="2032" font-family="Times New Roman, Liberation Serif, serif" font-size="15" text-anchor="middle" dy="5">i = 0, k-2</text>
+<polyline points="280,2050 280,2070" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<polygon points="223,2070 337,2070 355,2088 337,2106 223,2106 205,2088" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="280" y="2088" font-family="Times New Roman, Liberation Serif, serif" font-size="15" text-anchor="middle" dy="5">j = 0, k-2-i</text>
+<polyline points="280,2106 280,2126" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<polygon points="280,2126 360.0,2156.0 280,2186 200.0,2156.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="280" y="2156.0" font-family="Times New Roman, Liberation Serif, serif" font-size="15" text-anchor="middle" dy="5">y<tspan dy="5" font-size="11">j</tspan><tspan dy="-5"> &lt; y</tspan><tspan dy="5" font-size="11">j+1</tspan><tspan dy="-5"></tspan></text>
+<text x="370.0" y="2146.0" font-family="Times New Roman, Liberation Serif, serif" font-size="14" text-anchor="middle" dy="5">+</text>
+<text x="270" y="2195" font-family="Times New Roman, Liberation Serif, serif" font-size="14" text-anchor="middle" dy="5">–</text>
+<polyline points="360,2156 425.0,2156" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<rect x="425.0" y="2119.0" width="170" height="74" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="510" y="2138.0" font-family="Times New Roman, Liberation Serif, serif" font-size="15" text-anchor="middle" dy="5">t = y<tspan dy="5" font-size="11">j</tspan><tspan dy="-5"></tspan></text>
+<text x="510" y="2156.0" font-family="Times New Roman, Liberation Serif, serif" font-size="15" text-anchor="middle" dy="5">y<tspan dy="5" font-size="11">j</tspan><tspan dy="-5"> = y</tspan><tspan dy="5" font-size="11">j+1</tspan><tspan dy="-5"></tspan></text>
+<text x="510" y="2174.0" font-family="Times New Roman, Liberation Serif, serif" font-size="15" text-anchor="middle" dy="5">y<tspan dy="5" font-size="11">j+1</tspan><tspan dy="-5"> = t</tspan></text>
+<polyline points="510,2193.0 510,2203.0 280,2203.0" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<polyline points="280,2186 280,2203.0" fill="none" stroke="#000" stroke-width="1.3"/>
+<polyline points="280,2203.0 280,2223.0" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<circle cx="280" cy="2237" r="14" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="280" y="2237.0" font-family="Times New Roman, Liberation Serif, serif" font-size="14" text-anchor="middle" dy="5">j</text>
+<polyline points="266,2237.0 165,2237.0 165,2088 205,2088" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<polyline points="280,2251.0 280,2271.0" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<circle cx="280" cy="2285" r="14" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="280" y="2285.0" font-family="Times New Roman, Liberation Serif, serif" font-size="14" text-anchor="middle" dy="5">i</text>
+<polyline points="266,2285.0 140,2285.0 140,2032 205,2032" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<polyline points="280,2299.0 280,2323.0" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<polygon points="205.0,2323.0 375.0,2323.0 355.0,2373.0 185.0,2373.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="284" y="2342.0" font-family="Times New Roman, Liberation Serif, serif" font-size="15" text-anchor="middle" dy="5">y<tspan dy="5" font-size="11">0</tspan><tspan dy="-5">, y</tspan><tspan dy="5" font-size="11">1</tspan><tspan dy="-5">, …, y</tspan><tspan dy="5" font-size="11">k-1</tspan><tspan dy="-5"></tspan></text>
+<text x="201.0" y="2363.0" font-family="Times New Roman, Liberation Serif, serif" font-size="12" text-anchor="start" dy="5">вывод</text>
+<polyline points="280,2373.0 280,2397.0" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<ellipse cx="280" cy="2415" rx="55" ry="18" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="280" y="2415.0" font-family="Times New Roman, Liberation Serif, serif" font-size="15" text-anchor="middle" dy="5">Конец</text>
+</svg>
